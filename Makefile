@@ -35,7 +35,7 @@ distclean: clean
 .PHONY: distclean
 
 # Build analytics.js.
-analytics.js: install $(SRC) package.json
+analytics.js: $(SRC)
 	@$(BROWSERIFY) lib/index.js --standalone analytics > analytics.js
 
 # Build minified analytics.js.
