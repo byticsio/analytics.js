@@ -138,7 +138,7 @@
 
 "@segment/analytics.js-integration-adroll@git+https://github.com/segment-integrations/analytics.js-integration-adroll.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-adroll.git#448f9a0b3b9f45ff747a31e34a444f7985acb1fb"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-adroll.git#7cb59b3e45769d1a57847ff43b3f2eed8b840336"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@ndhoule/foldl" "^2.0.1"
@@ -149,7 +149,7 @@
 
 "@segment/analytics.js-integration-adwords@git+https://github.com/segment-integrations/analytics.js-integration-adwords.git":
   version "2.4.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-adwords.git#67921a93f63b8dd03c74bd73b1db2ef1bda141df"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-adwords.git#d58ee73731afd2b0aef1a05b64907cc691678dc5"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -157,22 +157,24 @@
 
 "@segment/analytics.js-integration-alexa@git+https://github.com/segment-integrations/analytics.js-integration-alexa.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-alexa.git#2a61d9b97a382586fd5dd2d9b921944a9ea756d3"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-alexa.git#a6b4bf0ef754108449ae1f0688940acf86ac2536"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-amplitude@git+https://github.com/segment-integrations/analytics.js-integration-amplitude.git":
-  version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-amplitude.git#03e8b8e8fe14c3ba892fdc9cc9c8e74da9e93dc2"
+  version "2.3.0"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-amplitude.git#1bb95ac481e56a68e67cdbef04157bb2688c346d"
   dependencies:
+    "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
     "@segment/top-domain" "^3.0.0"
     component-bind "^1.0.0"
     do-when "^1.0.0"
+    is "^3.2.1"
 
 "@segment/analytics.js-integration-appcues@git+https://github.com/segment-integrations/analytics.js-integration-appcues.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-appcues.git#0c4bd33a30d8aba98228a00f2f00d0e7e0d96ad1"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-appcues.git#2d00fd9d0b3fa70c5693297519d002ba189609f7"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     "@segment/load-script" "^1.0.1"
@@ -180,14 +182,14 @@
 
 "@segment/analytics.js-integration-atatus@git+https://github.com/segment-integrations/analytics.js-integration-atatus.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-atatus.git#2c6d1399fb9e2e8ccc3d7b6f83b5955b3cb959e2"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-atatus.git#b0acb11fd50155d6998caaf78738a76cdb971515"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     isobject "^2.1.0"
 
 "@segment/analytics.js-integration-autosend@git+https://github.com/segment-integrations/analytics.js-integration-autosend.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-autosend.git#135311091e452a8d2778567f78812c111b15cadc"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-autosend.git#097210384f7b8a3b41920460fdda9156bb1454c4"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
@@ -200,20 +202,20 @@
 
 "@segment/analytics.js-integration-bing-ads@git+https://github.com/segment-integrations/analytics.js-integration-bing-ads.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bing-ads.git#d6d9c9a3b2484ea01ff45592e00d14a6ca706e77"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bing-ads.git#a031218c29c01973eee8aeada5a4b9e4a61dc0e5"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-blueshift@git+https://github.com/segment-integrations/analytics.js-integration-blueshift.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-blueshift.git#52cfbcc54bd7926387f4a3e068866d941c853503"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-blueshift.git#bcb42b25ed092c4c250d3be5a3783396087b0344"
   dependencies:
     "@ndhoule/foldl" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-boomtrain@git+https://github.com/segment-integrations/analytics.js-integration-boomtrain.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-boomtrain.git#dc1eb52c701a8613ed08c9e05a8e73bde63bd7c8"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-boomtrain.git#068566b2ea7561a0c9836404336b2498957306ed"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     "@segment/convert-dates" "^1.0.0"
@@ -221,7 +223,7 @@
 
 "@segment/analytics.js-integration-bronto@git+https://github.com/segment-integrations/analytics.js-integration-bronto.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bronto.git#391bf8bbbedb7d63e1104fc4ac8821daa00a766d"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bronto.git#347b9310802e25f65d5b27d16c2f74605aa7d29f"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^3.1.0"
@@ -230,14 +232,14 @@
 
 "@segment/analytics.js-integration-bugherd@git+https://github.com/segment-integrations/analytics.js-integration-bugherd.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bugherd.git#2284e664fa427ebac24bd68e3ada59407407e3e5"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bugherd.git#c653ff981cfd5dfa2c08f01d26adefeb2691c3a5"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     next-tick "^0.2.2"
 
 "@segment/analytics.js-integration-bugsnag@git+https://github.com/segment-integrations/analytics.js-integration-bugsnag.git":
   version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bugsnag.git#af6e3b5c10cdb4cc79653c1009efff97175819b7"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-bugsnag.git#0454d4e834a97a92e378b7fbec2053fdb3f526bf"
   dependencies:
     "@ndhoule/extend" "^2.0.0"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -245,14 +247,14 @@
 
 "@segment/analytics.js-integration-chameleon@git+https://github.com/segment-integrations/analytics.js-integration-chameleon.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-chameleon.git#bbbd2ef7f0cd4d7f7d146cd16c03e8dd44cb1cb8"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-chameleon.git#781ccf5dcb31beed029d042211b356e2078b0ec4"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-chartbeat@git+https://github.com/segment-integrations/analytics.js-integration-chartbeat.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-chartbeat.git#bd7045a061b0b00abe502919bf7a2f1f9e7fa5f2"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-chartbeat.git#e7945cefe98fb4275f26ee433257b3f6c818a356"
   dependencies:
     "@ndhoule/defaults" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -260,7 +262,7 @@
 
 "@segment/analytics.js-integration-clicky@git+https://github.com/segment-integrations/analytics.js-integration-clicky.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-clicky.git#849c9b14b3a1355793684f2a28cde7e6cb096062"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-clicky.git#c12cf23b11630e0252c83801bb21587a578d0d05"
   dependencies:
     "@ndhoule/extend" "^2.0.0"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -269,7 +271,7 @@
 
 "@segment/analytics.js-integration-comscore@git+https://github.com/segment-integrations/analytics.js-integration-comscore.git":
   version "2.0.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-comscore.git#b87afa911dd6aba4b094a059ffbbefa61390719b"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-comscore.git#24cce7ff8a176e8f709699abb13dec09ce02e3e8"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     use-https "^0.1.1"
@@ -282,7 +284,7 @@
 
 "@segment/analytics.js-integration-curebit@git+https://github.com/segment-integrations/analytics.js-integration-curebit.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-curebit.git#5f1049bbb5e6f4b64884036a4faeeec094453723"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-curebit.git#0843697d24d16a504de4551784b657537225f216"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^3.1.0"
@@ -295,7 +297,7 @@
 
 "@segment/analytics.js-integration-customerio@git+https://github.com/segment-integrations/analytics.js-integration-customerio.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-customerio.git#f21d3fd875c190ed5bfcacfcfdfcb91c6277e95b"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-customerio.git#d4894ed7aac9313a440541261cb9cd345e0acb99"
   dependencies:
     "@segment/alias" "^1.0.2"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -304,23 +306,24 @@
 
 "@segment/analytics.js-integration-drift@git+https://github.com/segment-integrations/analytics.js-integration-drift.git":
   version "2.0.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-drift.git#797b36a82816349250987ce9de2e48c40b06814d"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-drift.git#760dd4d3c0a43b29db4a45653c93ffcee815f861"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
     "@segment/convert-dates" "^1.0.0"
 
 "@segment/analytics.js-integration-drip@git+https://github.com/segment-integrations/analytics.js-integration-drip.git":
-  version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-drip.git#679ca55a9633cbff4d4379622f86165926bd1b1d"
+  version "2.1.1"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-drip.git#4766d875b4b65b0c16572356d89c5b8a971ebfaf"
   dependencies:
+    "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^3.2.0"
     global-queue "^1.0.1"
     isobject "^2.1.0"
 
 "@segment/analytics.js-integration-elevio@git+https://github.com/segment-integrations/analytics.js-integration-elevio.git":
   version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-elevio.git#16998ba153ac8d022c166b81ca43ef26fa4745fd"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-elevio.git#f5585b2a22befdef1ba780b25d038493e7e52dc2"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@ndhoule/keys" "^2.0.0"
@@ -330,7 +333,7 @@
 
 "@segment/analytics.js-integration-errorception@git+https://github.com/segment-integrations/analytics.js-integration-errorception.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-errorception.git#a957bd8b353ab7286a9470135b2fb0f7cb6a6e4d"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-errorception.git#3a04484c69ac35d821124922b442acc662e0d9c4"
   dependencies:
     "@ndhoule/extend" ndhoule/extend
     "@segment/analytics.js-integration" "^2.1.0"
@@ -338,7 +341,7 @@
 
 "@segment/analytics.js-integration-evergage@git+https://github.com/segment-integrations/analytics.js-integration-evergage.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-evergage.git#54d71d0bcdcb470f9c3937f145ed3aa63760fe12"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-evergage.git#74958d9ac24514520a26e6d13a566ebfefe09029"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -346,7 +349,7 @@
 
 "@segment/analytics.js-integration-extole@git+https://github.com/segment-integrations/analytics.js-integration-extole.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-extole.git#81d815ef527cab8c039a452d980ab594660f6f6b"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-extole.git#035e9f27cc0042ddc56318f21b1f0be6a4a351be"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@ndhoule/extend" "^2.0.0"
@@ -356,7 +359,7 @@
 
 "@segment/analytics.js-integration-facebook-conversion-tracking@git+https://github.com/segment-integrations/analytics.js-integration-facebook-conversion-tracking.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-facebook-conversion-tracking.git#bc72ab264033c3cc7b26f453dcc078b036a35fec"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-facebook-conversion-tracking.git#8e17af9741a273d71c44125878e6ccca90511f07"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -364,7 +367,7 @@
 
 "@segment/analytics.js-integration-facebook-custom-audiences@git+https://github.com/segment-integrations/analytics.js-integration-facebook-custom-audiences.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-facebook-custom-audiences.git#a78f4b58a96141e38978773bfc9a97e5d8a29406"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-facebook-custom-audiences.git#6430ad521cd5dc4ad123de1f14b14959aba8bad8"
   dependencies:
     "@ndhoule/foldl" "^2.0.1"
     "@segment/analytics.js-integration" "^3.1.0"
@@ -373,7 +376,7 @@
 
 "@segment/analytics.js-integration-facebook-pixel@git+https://github.com/segment-integrations/analytics.js-integration-facebook-pixel.git":
   version "2.3.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-facebook-pixel.git#9aa9216d530d18e33864cc7a8945e4288f58f91d"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-facebook-pixel.git#d01a1fcf7df11afe804c756bff3c7952ec35a5a1"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@ndhoule/foldl" "^2.0.1"
@@ -384,7 +387,7 @@
 
 "@segment/analytics.js-integration-foxmetrics@git+https://github.com/segment-integrations/analytics.js-integration-foxmetrics.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-foxmetrics.git#c8bf46dbb80bf7ae3d36bed0b30ff70144468b0d"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-foxmetrics.git#d2b1ab402be9637ce771cdb4e413db10dbc76b8d"
   dependencies:
     "@segment/analytics.js-integration" "^3.1.0"
     component-each "^0.2.6"
@@ -402,21 +405,21 @@
 
 "@segment/analytics.js-integration-gauges@git+https://github.com/segment-integrations/analytics.js-integration-gauges.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-gauges.git#6cee872e3fbd3904a3466777f5277936395a5008"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-gauges.git#d5d64be2041034d423d0b10539c09059cf33b652"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     global-queue "^1.0.1"
 
 "@segment/analytics.js-integration-get-satisfaction@git+https://github.com/segment-integrations/analytics.js-integration-get-satisfaction.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-get-satisfaction.git#d036b05d0b37c835d74ab28504ffe7d0c28b8739"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-get-satisfaction.git#fc562fcf0b46af6a06e5ec6468b1642df66c1194"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     on-body-ready "^1.0.0"
 
 "@segment/analytics.js-integration-google-analytics@git+https://github.com/segment-integrations/analytics.js-integration-google-analytics.git":
   version "2.4.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-google-analytics.git#21d6d7b7cd5a60a8b7be78733cabb84fe4e4f660"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-google-analytics.git#b306cd488814857ce76ea7efaa4f6b906d7cdedc"
   dependencies:
     "@ndhoule/defaults" "^2.0.1"
     "@segment/analytics.js-integration" "^3.1.0"
@@ -430,15 +433,15 @@
     use-https "^0.1.1"
 
 "@segment/analytics.js-integration-google-tag-manager@git+https://github.com/segment-integrations/analytics.js-integration-google-tag-manager.git":
-  version "2.3.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-google-tag-manager.git#28b251780ff40f3fc4e3f4e41aaeaa0801ebe1c6"
+  version "2.4.0"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-google-tag-manager.git#1d6d2376e699062a37ee0d327013870217f3d1a4"
   dependencies:
     "@segment/analytics.js-integration" "^3.2.0"
     global-queue "^1.0.1"
 
 "@segment/analytics.js-integration-gosquared@git+https://github.com/segment-integrations/analytics.js-integration-gosquared.git":
   version "2.1.2"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-gosquared.git#8ca07ef8e130f4ebae7b3321d805ab9d23363949"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-gosquared.git#c49d58c5f1073ccf0a7499a980520aa08c49e830"
   dependencies:
     "@segment/analytics.js-integration" "^3.1.0"
     component-each "^0.2.6"
@@ -448,7 +451,7 @@
 
 "@segment/analytics.js-integration-heap@git+https://github.com/segment-integrations/analytics.js-integration-heap.git":
   version "2.0.3"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-heap.git#93c276ddcbe60239baf869ff9f1ff90ee919663e"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-heap.git#c8e12968b237ad093e434ae0077dd9e91a1f1b90"
   dependencies:
     "@ndhoule/extend" "^2.0.0"
     "@segment/analytics.js-integration" "^3.0.0"
@@ -458,19 +461,19 @@
 
 "@segment/analytics.js-integration-hellobar@git+https://github.com/segment-integrations/analytics.js-integration-hellobar.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-hellobar.git#1a49782e5fdc7ae3f039cb746d9f1b7164421c06"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-hellobar.git#616581088718e9b591003299b35359dd7e555e7b"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-hittail@git+https://github.com/segment-integrations/analytics.js-integration-hittail.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-hittail.git#343f21198e6aba6abedd235977635d7799c77ec0"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-hittail.git#4b34212f189aa829be0dbc715a303a7cc0a147ae"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-hubspot@git+https://github.com/segment-integrations/analytics.js-integration-hubspot.git":
   version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-hubspot.git#11094c93f36ebb752595db66fdcc42dc7729c79c"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-hubspot.git#5ec66dda3718be83cb3b7bbcf8bbb9d941475d0b"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^3.0.0"
@@ -479,20 +482,20 @@
 
 "@segment/analytics.js-integration-improvely@git+https://github.com/segment-integrations/analytics.js-integration-improvely.git":
   version "2.0.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-improvely.git#5704997d954e201ee30711a4f9abab48c8ddea4d"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-improvely.git#26f8a7854401e20d8bfb256f01c05ae500805fb1"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-inspectlet@git+https://github.com/segment-integrations/analytics.js-integration-inspectlet.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-inspectlet.git#704c262926f560a7c6778ce3a86ae8d23f3707e5"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-inspectlet.git#55eab9c59da898cb0990f5bf9a05a6ec0d4c91a6"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     global-queue "^1.0.1"
 
 "@segment/analytics.js-integration-intercom@git+https://github.com/segment-integrations/analytics.js-integration-intercom.git":
   version "2.2.3"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-intercom.git#96c770b798044bc611a414347bd1473ed9884efc"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-intercom.git#39da9392925b51140a752501d94dbe889bd05439"
   dependencies:
     "@ndhoule/clone" "^1.0.0"
     "@ndhoule/defaults" "^2.0.1"
@@ -509,14 +512,14 @@
 
 "@segment/analytics.js-integration-keen-io@git+https://github.com/segment-integrations/analytics.js-integration-keen-io.git":
   version "2.1.2"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-keen-io.git#8e21bb7fc0cd9685914a6c35f2ae865a4e96f65c"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-keen-io.git#e36117c732b88b027e68d693d752e1dba2694368"
   dependencies:
     "@ndhoule/clone" "^1.0.0"
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-kenshoo@git+https://github.com/segment-integrations/analytics.js-integration-kenshoo.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-kenshoo.git#d8aeca83bb5e31107c91f6084c9fa4d35378c7f8"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-kenshoo.git#aaef209b0deb76a898763fad11070c3eed2dd64d"
   dependencies:
     "@ndhoule/includes" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -524,7 +527,7 @@
 
 "@segment/analytics.js-integration-kissmetrics@git+https://github.com/segment-integrations/analytics.js-integration-kissmetrics.git":
   version "2.1.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-kissmetrics.git#726f1d5de5e0d23af3b46e6f0cc226987b43c028"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-kissmetrics.git#8bf5d680c39ec6bf758320e791146059a816ae7e"
   dependencies:
     "@ndhoule/extend" "^2.0.0"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -534,8 +537,8 @@
     obj-case "^0.2.0"
 
 "@segment/analytics.js-integration-klaviyo@git+https://github.com/segment-integrations/analytics.js-integration-klaviyo.git":
-  version "2.1.2"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-klaviyo.git#641f6c1004435ebc9dc423f99b5b62b318339687"
+  version "2.2.0"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-klaviyo.git#9910d1db4b6cc15c7e0007dade8fb658fc4145b8"
   dependencies:
     "@ndhoule/extend" "^2.0.0"
     "@ndhoule/foldl" "^2.0.1"
@@ -558,7 +561,7 @@
 
 "@segment/analytics.js-integration-lucky-orange@git+https://github.com/segment-integrations/analytics.js-integration-lucky-orange.git":
   version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-lucky-orange.git#3e21863dc90658910d66f9a8525d9979a9471316"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-lucky-orange.git#8cde51e85eaaacf3047d27fd9dbf5e0f27692ad4"
   dependencies:
     "@segment/analytics.js-integration" "^3.2.0"
     is "^3.1.0"
@@ -567,20 +570,20 @@
 
 "@segment/analytics.js-integration-lytics@git+https://github.com/segment-integrations/analytics.js-integration-lytics.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-lytics.git#760a0ab10cc82b89a117a001272047be3180a1e4"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-lytics.git#6b0fc0752b4297a670b24b9c52b88e597f2bf68b"
   dependencies:
     "@segment/alias" "^1.0.0"
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-madkudu@git+https://github.com/segment-integrations/analytics.js-integration-madkudu.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-madkudu.git#4860bd03518db2b8bf7dbe41ad192fb2aa3ee5eb"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-madkudu.git#c44f953a1f561cf1a94605adccf12be5546ef127"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-mixpanel@git+https://github.com/segment-integrations/analytics.js-integration-mixpanel.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-mixpanel.git#a002f797f2699170b2cdeccfd6ee388181ae4d79"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-mixpanel.git#0af6e8a773ca7fb5cbaa78ccd0104660c52d34f6"
   dependencies:
     "@ndhoule/includes" "^2.0.1"
     "@ndhoule/pick" "^2.0.0"
@@ -603,7 +606,7 @@
 
 "@segment/analytics.js-integration-mouseflow@git+https://github.com/segment-integrations/analytics.js-integration-mouseflow.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-mouseflow.git#1afaa9d9fabff50f03ee7dc1da989ca1c502445c"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-mouseflow.git#6a9307c67751af335700a6958c45f6ddf8665852"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     component-each "^0.2.6"
@@ -613,7 +616,7 @@
 
 "@segment/analytics.js-integration-mousestats@git+https://github.com/segment-integrations/analytics.js-integration-mousestats.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-mousestats.git#287379687db0a4d85b1c9165df0385363f73d687"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-mousestats.git#4df80e4a39b03d9c37c964c4eef7c4a29d3c7eda"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     component-each "^0.2.6"
@@ -622,14 +625,14 @@
 
 "@segment/analytics.js-integration-navilytics@git+https://github.com/segment-integrations/analytics.js-integration-navilytics.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-navilytics.git#9fcc0de89936105e7b41c7c9c82383df83a3324c"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-navilytics.git#8cbf7f23d4859c5bf2385f6115cff0d3d5487796"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     global-queue "^1.0.1"
 
 "@segment/analytics.js-integration-nudgespot@git+https://github.com/segment-integrations/analytics.js-integration-nudgespot.git":
   version "2.0.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-nudgespot.git#7c90ded45a27fe668ee02e31e95c43521a708f4b"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-nudgespot.git#c4cc99f0b5bee7fed421de64e877251932c88530"
   dependencies:
     "@segment/alias" "^1.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -643,8 +646,8 @@
     use-https "^0.1.1"
 
 "@segment/analytics.js-integration-optimizely@git+https://github.com/segment-integrations/analytics.js-integration-optimizely.git":
-  version "3.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-optimizely.git#9f62d1bfd58fb163a645b83b5a8ceb636283e76d"
+  version "3.2.1"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-optimizely.git#893ed1b8683e338339b33983c0967731cffe15b1"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@ndhoule/foldl" "^2.0.1"
@@ -656,7 +659,7 @@
 
 "@segment/analytics.js-integration-outbound@git+https://github.com/segment-integrations/analytics.js-integration-outbound.git":
   version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-outbound.git#7158f7a8b9b5240cd18da8a0d6f41b2c5042fa41"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-outbound.git#1ed6e1331334dd3f1e78b87b5a276671622dc193"
   dependencies:
     "@ndhoule/foldl" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -664,34 +667,35 @@
     to-no-case "^1.0.1"
 
 "@segment/analytics.js-integration-parsely@git+https://github.com/segment-integrations/analytics.js-integration-parsely.git":
-  version "2.2.2"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-parsely.git#ddea91a8d8cb2089079314651ec033cc61423cf2"
+  version "2.2.3"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-parsely.git#d12566b08a3308a6612b6faf6f9ced7e4aa03293"
   dependencies:
     "@ndhoule/defaults" "^2.0.1"
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
     array-filter "^1.0.0"
     do-when "^1.0.0"
+    is "3.2.1"
     json3 "^3.3.2"
     reject "0.0.1"
 
 "@segment/analytics.js-integration-perfect-audience@git+https://github.com/segment-integrations/analytics.js-integration-perfect-audience.git":
   version "2.2.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-perfect-audience.git#0371f984c1ef41b187bfaf4fcefed00a185fe450"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-perfect-audience.git#5097131478b55f5a63888c0b3c2a67fc9b376cba"
   dependencies:
     "@segment/analytics.js-integration" "^3.1.0"
     global-queue "^1.0.1"
 
 "@segment/analytics.js-integration-pingdom@git+https://github.com/segment-integrations/analytics.js-integration-pingdom.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-pingdom.git#82cda8223c6459a585b63b8dbd3c83efbefb8eff"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-pingdom.git#c7bb96f81d02f91ec4f459145568e3a628682b88"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     global-queue "^1.0.1"
 
 "@segment/analytics.js-integration-piwik@git+https://github.com/segment-integrations/analytics.js-integration-piwik.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-piwik.git#0fa46f994b83aa9f546fbaa93f95a7418a834f60"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-piwik.git#fc0a2102f7bb93431d4ef22a9d8889f28ec9c2e8"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     component-each "^0.2.6"
@@ -708,7 +712,7 @@
 
 "@segment/analytics.js-integration-qualaroo@git+https://github.com/segment-integrations/analytics.js-integration-qualaroo.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-qualaroo.git#c587ee8ea6d2b675297a03bf7560b8cb3224884d"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-qualaroo.git#1375eceeff76baf47cc21cd8efcb8ceecd9e7355"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     do-when "^1.0.0"
@@ -717,7 +721,7 @@
 
 "@segment/analytics.js-integration-quantcast@git+https://github.com/segment-integrations/analytics.js-integration-quantcast.git":
   version "2.1.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-quantcast.git#1f71e9d6175a3be489e3c37dc4a4d9a9878d7a22"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-quantcast.git#7c116140390a30b5ce70471ac689974fc344001b"
   dependencies:
     "@segment/analytics.js-integration" "^3.1.0"
     global-queue "^1.0.1"
@@ -726,7 +730,7 @@
 
 "@segment/analytics.js-integration-quanticmind@git+https://github.com/segment-integrations/analytics.js-integration-quanticmind.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-quanticmind.git#898155e9619f66a7f837c7b0d74b75ee20906890"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-quanticmind.git#bf604172eec4d556ccffc663d55b21b46eec7879"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     component-each "^0.2.6"
@@ -734,7 +738,7 @@
 
 "@segment/analytics.js-integration-ramen@git+https://github.com/segment-integrations/analytics.js-integration-ramen.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-ramen.git#382ead186cd4810588556603a3376c45ccee23ab"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-ramen.git#05b128c3fa24252b7fb647f27b5fcb3836c863ca"
   dependencies:
     "@segment/alias" "^1.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -743,7 +747,7 @@
 
 "@segment/analytics.js-integration-rollbar@git+https://github.com/segment-integrations/analytics.js-integration-rollbar.git":
   version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-rollbar.git#2d0330cb67d392730399f8b407db262627282d94"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-rollbar.git#b2b7d95d706fe8c6f151b2523397df23456954d6"
   dependencies:
     "@ndhoule/extend" "^2.0.0"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -757,21 +761,21 @@
 
 "@segment/analytics.js-integration-saasquatch@git+https://github.com/segment-integrations/analytics.js-integration-saasquatch.git":
   version "2.1.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-saasquatch.git#fbd74d3809d09a68dbaeefd4cb41a107aae5fc04"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-saasquatch.git#f71791f04fdd6b41de7d804a1c7e530fdf54727f"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     obj-case "^0.2.0"
 
 "@segment/analytics.js-integration-satismeter@git+https://github.com/segment-integrations/analytics.js-integration-satismeter.git":
-  version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-satismeter.git#5c0cfdb464025e7cfe12e093180e21a770c0bad9"
+  version "2.0.1"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-satismeter.git#b05c41f8d340486938cd80a142a3af453e9ff3e2"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     do-when "^1.0.0"
 
 "@segment/analytics.js-integration-segmentio@git+https://github.com/segment-integrations/analytics.js-integration-segmentio.git":
-  version "3.4.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-segmentio.git#85d45f5d6d86c3a7f793f0566e7e8bbe3b8a4931"
+  version "3.4.2"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-segmentio.git#c3279a36fef456f1e25afbcd83946b9357d0cfa7"
   dependencies:
     "@ndhoule/extend" "^2.0.0"
     "@ndhoule/keys" "^2.0.0"
@@ -791,8 +795,8 @@
     yields-store "^1.0.2"
 
 "@segment/analytics.js-integration-sentry@git+https://github.com/segment-integrations/analytics.js-integration-sentry.git":
-  version "2.3.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-sentry.git#f8c2dc532cbdcccddf9a882d7f3b42a8e18b54a9"
+  version "2.5.0"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-sentry.git#c9c0a412f4adbfae1eca767ab0faebcb88b4a9c7"
   dependencies:
     "@ndhoule/foldl" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -800,14 +804,14 @@
 
 "@segment/analytics.js-integration-simplereach@git+https://github.com/segment-integrations/analytics.js-integration-simplereach.git":
   version "2.1.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-simplereach.git#9206ff13e40f01ca8b01559fb63eba074c5806aa"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-simplereach.git#c135bae9250b4e58963c609288c17c73e58a2a06"
   dependencies:
     "@ndhoule/defaults" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-snapengage@git+https://github.com/segment-integrations/analytics.js-integration-snapengage.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-snapengage.git#ec81840738858c76f747893a135f321b819b5cb6"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-snapengage.git#ad00151d3b08240a26dc4d14d4ccee9316a4bbfb"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     is "^3.1.0"
@@ -823,13 +827,13 @@
 
 "@segment/analytics.js-integration-supporthero@git+https://github.com/segment-integrations/analytics.js-integration-supporthero.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-supporthero.git#5f7aa2ce56c99d7ceaebdf859ae360c10d35f6f0"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-supporthero.git#1ea748f5529c0001bfcb24a01dff2cd16ed6114a"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-taplytics@git+https://github.com/segment-integrations/analytics.js-integration-taplytics.git":
   version "2.0.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-taplytics.git#79dc8bddf53a3a1cdc1c7e9409f4459bdbc010d1"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-taplytics.git#84b5bcceff7664f5654edf354b58bb97bca7da0d"
   dependencies:
     "@ndhoule/keys" "^2.0.0"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -838,7 +842,7 @@
 
 "@segment/analytics.js-integration-tapstream@git+https://github.com/segment-integrations/analytics.js-integration-tapstream.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-tapstream.git#1196e286b9fe304e12f4f821b885e550dbe14b8e"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-tapstream.git#b212c147e4e1915675e65bb5f10d0d4757d73cb7"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     global-queue "^1.0.1"
@@ -852,8 +856,8 @@
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-twitter-ads@git+https://github.com/segment-integrations/analytics.js-integration-twitter-ads.git":
-  version "2.4.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-twitter-ads.git#ef919c93bc280e297cb46e5af91ab65451407346"
+  version "2.5.0"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-twitter-ads.git#48fc149a12318374dfe1da3dc854059eb214a851"
   dependencies:
     "@ndhoule/defaults" "^2.0.1"
     "@ndhoule/extend" "^2.0.0"
@@ -865,7 +869,7 @@
 
 "@segment/analytics.js-integration-userlike@git+https://github.com/segment-integrations/analytics.js-integration-userlike.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-userlike.git#d285e11eaa2990e607b1ead9b21960727b154e6a"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-userlike.git#3696ead3c4c31c4bd6759ed843d85294022dbd42"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     component-clone "^0.2.2"
@@ -873,7 +877,7 @@
 
 "@segment/analytics.js-integration-uservoice@git+https://github.com/segment-integrations/analytics.js-integration-uservoice.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-uservoice.git#afe9332bbebd302373f97c53c40ab2de73cd2560"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-uservoice.git#ec549b58c54b9b4a4c6cc640b2b7f86d1d28b2da"
   dependencies:
     "@segment/alias" "^1.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -885,7 +889,7 @@
 
 "@segment/analytics.js-integration-vero@git+https://github.com/segment-integrations/analytics.js-integration-vero.git":
   version "2.0.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-vero.git#103b482252994217c8abe48d41e64ec10201c36f"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-vero.git#6a69d003e2a7a43b49de45a5c9b9b4e2afd4a35d"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     component-cookie "^1.1.2"
@@ -893,7 +897,7 @@
 
 "@segment/analytics.js-integration-visual-website-optimizer@git+https://github.com/segment-integrations/analytics.js-integration-visual-website-optimizer.git":
   version "2.1.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-visual-website-optimizer.git#62cdd89e0e4c741709ae058d76ae4f18cc502086"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-visual-website-optimizer.git#67e61d5a1dc58c9d89c41edcb6f47c804f6492ca"
   dependencies:
     "@segment/analytics.js-integration" "^3.1.0"
     component-each "^0.2.6"
@@ -901,14 +905,14 @@
 
 "@segment/analytics.js-integration-webengage@git+https://github.com/segment-integrations/analytics.js-integration-webengage.git":
   version "2.0.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-webengage.git#ac8cdb098c63ea8a95596387467323ef95eb66ee"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-webengage.git#d34e8dbe000142d6db4bee5dec588bd5237b5a30"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     use-https "^0.1.1"
 
 "@segment/analytics.js-integration-woopra@git+https://github.com/segment-integrations/analytics.js-integration-woopra.git":
   version "2.0.1"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-woopra.git#9cc7af7b5c7b98968d8e0ea00658b8183baf7121"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-woopra.git#ca587188293e69c34666c25f8943ffb5d2640026"
   dependencies:
     "@ndhoule/foldl" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -921,7 +925,7 @@
 
 "@segment/analytics.js-integration-wootric@git+https://github.com/segment-integrations/analytics.js-integration-wootric.git":
   version "2.0.2"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-wootric.git#3407527a0a4ead704f0be55ceb0aa03a8cd34cd5"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-wootric.git#b576e4ecf24efb4f985b188694d0074e41f949c4"
   dependencies:
     "@ndhoule/foldl" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -930,7 +934,7 @@
 
 "@segment/analytics.js-integration-yandex-metrica@git+https://github.com/segment-integrations/analytics.js-integration-yandex-metrica.git":
   version "2.1.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-yandex-metrica.git#96cc8fb1f051d25d7d2cc22864c2f6e3ddc27fab"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-yandex-metrica.git#d7e20ada85cd127d7e18f3c2516ff63bcf8d226a"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
     component-bind "^1.0.0"
@@ -1006,8 +1010,8 @@
     component-type "^1.2.1"
 
 "@segment/eslint-config@^3.1.1":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@segment/eslint-config/-/eslint-config-3.4.0.tgz#8b8e37262502dd3a65a74d50cecf50accea8dc85"
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@segment/eslint-config/-/eslint-config-3.5.0.tgz#d9eb7cb7aa9950e04a12bc37f9813beb34cb7620"
 
 "@segment/fmt@^1.0.0":
   version "1.0.0"
@@ -1101,21 +1105,25 @@ acorn-jsx@^3.0.0:
   dependencies:
     acorn "^3.0.4"
 
-acorn@4.0.4, acorn@^4.0.3:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.4.tgz#17a8d6a7a6c4ef538b814ec9abac2779293bf30a"
-
 acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
+
+acorn@^4.0.3:
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.11.tgz#edcda3bd937e7556410d42ed5860f67399c794c0"
+
+acorn@^5.0.1:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d"
 
 ajv-keywords@^1.0.0:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
 
 ajv@^4.7.0:
-  version "4.11.5"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.5.tgz#b6ee74657b993a01dce44b7944d56f485828d5bd"
+  version "4.11.6"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.6.tgz#947e93049790942b2a2d60a8289b28924d39f987"
   dependencies:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
@@ -1234,8 +1242,8 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.6.tgz#53344adb14617a13f6e8dd2ce28905d1c0ba3215"
 
 brace-expansion@^1.0.0:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.6.tgz#7197d7eaa9b87e648390ea61fc66c84427420df9"
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.7.tgz#3effc3c50e000531fb720eaff80f0ae8ef23cf59"
   dependencies:
     balanced-match "^0.4.1"
     concat-map "0.0.1"
@@ -1294,8 +1302,8 @@ browserify-rsa@^4.0.0:
     randombytes "^2.0.1"
 
 browserify-sign@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/browserify-sign/-/browserify-sign-4.0.0.tgz#10773910c3c206d5420a46aad8694f820b85968f"
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/browserify-sign/-/browserify-sign-4.0.4.tgz#aa4eb68e5d7b658baa6bf6a57e630cbd7a93d298"
   dependencies:
     bn.js "^4.1.1"
     browserify-rsa "^4.0.0"
@@ -1363,7 +1371,7 @@ browserify@^13.0.1:
     vm-browserify "~0.0.1"
     xtend "^4.0.0"
 
-buffer-shims@^1.0.0:
+buffer-shims@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
 
@@ -1867,10 +1875,10 @@ eslint@^2.9.0:
     user-home "^2.0.0"
 
 espree@^3.1.6:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/espree/-/espree-3.4.0.tgz#41656fa5628e042878025ef467e78f125cb86e1d"
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/espree/-/espree-3.4.1.tgz#28a83ab4aaed71ed8fe0f5efe61b76a05c13c4d2"
   dependencies:
-    acorn "4.0.4"
+    acorn "^5.0.1"
     acorn-jsx "^3.0.0"
 
 esprima@^3.1.1:
@@ -2047,8 +2055,8 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.1"
 
 hmac-drbg@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.0.tgz#3db471f45aae4a994a0688322171f51b8b91bee5"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   dependencies:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
@@ -2071,8 +2079,8 @@ ieee754@^1.1.4:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
 ignore@^3.1.2:
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.2.6.tgz#26e8da0644be0bb4cb39516f6c79f0e0f4ffe48c"
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.2.7.tgz#4810ca5f1d8eca5595213a34b94f2eb4ed926bbd"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -2217,7 +2225,7 @@ is-utf8@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
 
-is@^3.0.1, is@^3.1.0:
+is@3.2.1, is@^3.0.1, is@^3.1.0, is@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/is/-/is-3.2.1.tgz#d0ac2ad55eb7b0bec926a5266f6c662aaa83dca5"
 
@@ -2244,8 +2252,8 @@ jquery@^2.2.4:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
 
 js-yaml@^3.5.1:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.8.2.tgz#02d3e2c0f6beab20248d412c352203827d786721"
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.8.3.tgz#33a05ec481c850c8875929166fe1beb61c728766"
   dependencies:
     argparse "^1.0.7"
     esprima "^3.1.1"
@@ -2676,16 +2684,16 @@ read-pkg@^1.0.0:
     normalize-package-data "^2.3.2"
     path-type "^1.0.0"
 
-readable-stream@^2.0.2, readable-stream@^2.1.0, readable-stream@^2.1.5, readable-stream@^2.2.2:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.6.tgz#8b43aed76e71483938d12a8d46c6cf1a00b1f816"
+readable-stream@^2.0.2, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.2.6:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.9.tgz#cf78ec6f4a6d1eb43d26488cac97f042e74b7fc8"
   dependencies:
-    buffer-shims "^1.0.0"
+    buffer-shims "~1.0.0"
     core-util-is "~1.0.0"
     inherits "~2.0.1"
     isarray "~1.0.0"
     process-nextick-args "~1.0.6"
-    string_decoder "~0.10.x"
+    string_decoder "~1.0.0"
     util-deprecate "~1.0.1"
 
 readable-stream@~2.0.0:
@@ -2884,12 +2892,12 @@ stream-combiner2@^1.1.1:
     readable-stream "^2.0.2"
 
 stream-http@^2.0.0:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/stream-http/-/stream-http-2.6.3.tgz#4c3ddbf9635968ea2cfd4e48d43de5def2625ac3"
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/stream-http/-/stream-http-2.7.0.tgz#cec1f4e3b494bc4a81b451808970f8b20b4ed5f6"
   dependencies:
     builtin-status-codes "^3.0.0"
     inherits "^2.0.1"
-    readable-stream "^2.1.0"
+    readable-stream "^2.2.6"
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
 
@@ -2918,6 +2926,12 @@ string-width@^2.0.0:
 string_decoder@~0.10.0, string_decoder@~0.10.x:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+string_decoder@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.0.tgz#f06f41157b664d86069f84bdbdc9b0d8ab281667"
+  dependencies:
+    buffer-shims "~1.0.0"
 
 strip-ansi@^3.0.0:
   version "3.0.1"
@@ -3058,8 +3072,8 @@ typedarray@^0.0.6, typedarray@~0.0.5:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 uglify-js@^2.6.4:
-  version "2.8.16"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.16.tgz#d286190b6eefc6fd65eb0ecac6551e0b0e8839a4"
+  version "2.8.22"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.22.tgz#d54934778a8da14903fa29a326fb24c0ab51a1a0"
   dependencies:
     source-map "~0.5.1"
     yargs "~3.10.0"
