@@ -109,6 +109,7 @@
     "@segment/analytics.js-integration-spinnakr": "git+https://github.com/segment-integrations/analytics.js-integration-spinnakr.git",
     "@segment/analytics.js-integration-supporthero": "git+https://github.com/segment-integrations/analytics.js-integration-supporthero.git",
     "@segment/analytics.js-integration-talkus": "git+https://github.com/byticsio/analytics.js-integration-talkus.git",
+    "@segment/analytics.js-integration-tapfiliate": "git+https://github.com/tapfiliate/analytics.js-integration-tapfiliate.git",
     "@segment/analytics.js-integration-taplytics": "git+https://github.com/segment-integrations/analytics.js-integration-taplytics.git",
     "@segment/analytics.js-integration-tapstream": "git+https://github.com/segment-integrations/analytics.js-integration-tapstream.git",
     "@segment/analytics.js-integration-trakio": "git+https://github.com/segment-integrations/analytics.js-integration-trakio.git",

@@ -842,6 +842,12 @@
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
 
+"@segment/analytics.js-integration-tapfiliate@git+https://github.com/tapfiliate/analytics.js-integration-tapfiliate.git":
+  version "1.0.0"
+  resolved "git+https://github.com/tapfiliate/analytics.js-integration-tapfiliate.git#40b486a64c21fb0b097c77cb5d89e01355de4cbb"
+  dependencies:
+    "@segment/analytics.js-integration" "^2.0.1"
+
 "@segment/analytics.js-integration-taplytics@git+https://github.com/segment-integrations/analytics.js-integration-taplytics.git":
   version "2.0.1"
   resolved "git+https://github.com/segment-integrations/analytics.js-integration-taplytics.git#41dbb88a8dac6b34cc518fddd098a6736de8640f"
@@ -952,7 +958,7 @@
     do-when "^1.0.0"
     next-tick "^0.2.2"
 
-"@segment/analytics.js-integration@^2.1.0", "@segment/analytics.js-integration@^3.0.0", "@segment/analytics.js-integration@^3.1.0", "@segment/analytics.js-integration@^3.2.0", "@segment/analytics.js-integration@^3.x":
+"@segment/analytics.js-integration@^2.0.1", "@segment/analytics.js-integration@^2.1.0", "@segment/analytics.js-integration@^3.0.0", "@segment/analytics.js-integration@^3.1.0", "@segment/analytics.js-integration@^3.2.0", "@segment/analytics.js-integration@^3.x":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@segment/analytics.js-integration/-/analytics.js-integration-3.2.0.tgz#aac81cafdedea275bb1724610ffc79af56552399"
   dependencies:
@@ -2831,7 +2837,7 @@ string-width@^1.0.1, string-width@^2.0.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^3.0.0"
 
-string_decoder@~0.10.0, string_decoder@~0.10.x, string_decoder@~1.0.0:
+string_decoder@~0.10.0, string_decoder@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.1.tgz#62e200f039955a6810d8df0a33ffc0f013662d98"
   dependencies:
