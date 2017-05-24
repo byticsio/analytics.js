@@ -158,8 +158,8 @@
     "@segment/analytics.js-integration" "^2.1.0"
 
 "@segment/analytics.js-integration-amplitude@git+https://github.com/segment-integrations/analytics.js-integration-amplitude.git":
-  version "2.4.0"
-  resolved "git+https://github.com/segment-integrations/analytics.js-integration-amplitude.git#0e47b96ee990b49a3de218ecfa616a9086452d52"
+  version "2.4.1"
+  resolved "git+https://github.com/segment-integrations/analytics.js-integration-amplitude.git#4487a40b3e22f89bf660e4438b0be17791efcf45"
   dependencies:
     "@ndhoule/each" "^2.0.1"
     "@segment/analytics.js-integration" "^2.1.0"
@@ -838,9 +838,10 @@
 
 "@segment/analytics.js-integration-talkus@git+https://github.com/byticsio/analytics.js-integration-talkus.git":
   version "0.0.1"
-  resolved "git+https://github.com/byticsio/analytics.js-integration-talkus.git#1e1f23510f5e86f8afd2862d9aab2b4267210e0a"
+  resolved "git+https://github.com/byticsio/analytics.js-integration-talkus.git#2daecf5a84e2922cf342f8fa3e9886a80721804c"
   dependencies:
     "@segment/analytics.js-integration" "^2.1.0"
+    segmentio-facade "^3.2.0"
 
 "@segment/analytics.js-integration-tapfiliate@git+https://github.com/tapfiliate/analytics.js-integration-tapfiliate.git":
   version "1.0.0"
@@ -1714,8 +1715,8 @@ error-ex@^1.2.0:
     is-arrayish "^0.2.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.20"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.20.tgz#72a9b4fd5832797ba1bb65dceb2e25c04241c492"
+  version "0.10.21"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.21.tgz#19a725f9e51d0300bbc1e8e821109fd9daf55925"
   dependencies:
     es6-iterator "2"
     es6-symbol "~3.1"
@@ -2718,7 +2719,7 @@ script-onload@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/script-onload/-/script-onload-1.0.2.tgz#6bdca122875487192ccaf4e6884fcfdd0c7fde32"
 
-segmentio-facade@^3.0.2, segmentio-facade@^3.0.3, segmentio-facade@^3.1.0:
+segmentio-facade@^3.0.2, segmentio-facade@^3.0.3, segmentio-facade@^3.1.0, segmentio-facade@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/segmentio-facade/-/segmentio-facade-3.2.0.tgz#61bcaf61e4761f9c5a5455ee421826eb9bd37643"
   dependencies:
@@ -2837,7 +2838,7 @@ string-width@^1.0.1, string-width@^2.0.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^3.0.0"
 
-string_decoder@~0.10.0, string_decoder@~1.0.0:
+string_decoder@~0.10.0, string_decoder@~0.10.x, string_decoder@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.1.tgz#62e200f039955a6810d8df0a33ffc0f013662d98"
   dependencies:
