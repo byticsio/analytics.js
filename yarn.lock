@@ -94,9 +94,9 @@
     component-clone "^0.2.2"
     component-type "^1.2.1"
 
-"@segment/analytics.js-core@^3.0.0":
+"@segment/analytics.js-core@git+https://github.com/byticsio/analytics.js-core.git#optimize":
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@segment/analytics.js-core/-/analytics.js-core-3.0.0.tgz#166e682023e6086d41e53abe5cddb23bf02b14ed"
+  resolved "git+https://github.com/byticsio/analytics.js-core.git#c23bb5d98616a3e8ccab65cb513e65a390ed4edc"
   dependencies:
     "@ndhoule/after" "^1.0.0"
     "@ndhoule/clone" "^1.0.0"
@@ -126,7 +126,6 @@
     inherits "^2.0.1"
     install "^0.7.3"
     is "^3.1.0"
-    json3 "^3.3.2"
     new-date "^1.0.0"
     next-tick "^0.2.2"
     segmentio-facade "^3.0.2"
