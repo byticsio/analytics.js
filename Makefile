@@ -36,7 +36,7 @@ distclean: clean
 
 # Build analytics.js.
 analytics.js: $(SRC)
-	@$(BROWSERIFY) lib/index.js --standalone analytics > analytics.js
+	@$(BROWSERIFY) lib/index.js --global-transform=package-json-versionify --standalone analytics > analytics.js
 
 # Build minified analytics.js.
 analytics.min.js: analytics.js
